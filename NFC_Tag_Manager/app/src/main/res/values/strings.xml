@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NFC_Tag_Manager</string>
+    <string name="title_activity_nfc_writer_source">NFC_Writer</string>
+    <string name="title_activity_nfc_reader_source">NFC_Reader</string>
+</resources>

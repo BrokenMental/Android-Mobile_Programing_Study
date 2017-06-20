@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inhatc.juha.android_dbsqlite2.MainActivity">
+
+    <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:id="@+id/TableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:gravity="right"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <view
+            android:id="@+id/view1"
+            class="android.support.v4.widget.Space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#AAAAAA"/>
+
+        <TableRow
+            android:id="@+id/TableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:gravity="right"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <view
+            android:id="@+id/view2"
+            class="android.support.v4.widget.Space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#AAAAAA"/>
+
+        <TableRow
+            android:id="@+id/TableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:gravity="right"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <view
+            android:id="@+id/view3"
+            class="android.support.v4.widget.Space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#AAAAAA"/>
+
+        <TableRow
+            android:id="@+id/TableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:gravity="right"
+                android:layout_weight="1" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

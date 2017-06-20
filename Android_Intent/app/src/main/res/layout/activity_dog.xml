@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.ac.inhatc.juha.android_intent.DogAcitivity">
+
+    <ImageView
+        android:id="@+id/imgDogView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/dog" />
+
+    <TextView
+        android:id="@+id/txtSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editInputSound"
+        android:layout_alignParentStart="true"
+        android:text="Sound : "
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/editInputSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgDogView"
+        android:layout_marginTop="39dp"
+        android:layout_toEndOf="@+id/txtSound"
+        android:width="220dp" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editInputSound"
+        android:layout_below="@+id/editInputSound"
+        android:layout_marginTop="32dp"
+        android:width="100dip"
+        android:text="OK" />
+</RelativeLayout>

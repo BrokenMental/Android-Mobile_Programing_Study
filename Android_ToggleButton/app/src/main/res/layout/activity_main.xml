@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.ac.inhatc.juha.android_togglebutton.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toggle Button"
+        android:background="#FFFFFFFF"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView1" />
+
+    <ToggleButton
+        android:id="@+id/tglOnOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Off"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>
